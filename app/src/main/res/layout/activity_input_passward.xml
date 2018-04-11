@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/input_passward"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/RiceColor"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="16dp"
+        android:paddingLeft="8dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="50dp"
+        android:background="@drawable/ovalstyleforpassword"
+        android:hint="Passward"
+
+        android:inputType="number"
+        android:maxLines="1"
+        android:singleLine="true"
+
+        android:alpha="1"/>
+
+</RelativeLayout>
+
+</layout>

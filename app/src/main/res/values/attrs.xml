@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="DrawLayoutLeft">
+   <attr name="TopPointX" format="float"/>
+     <attr name="TopPointY" format="float"/>
+      <attr name="BottomPointX" format="float"/>
+      <attr name="BottomPointY" format="float"/>
+<attr name="CenterPointX" format="float"/>
+
+
+  </declare-styleable>
+
+
+</resources>

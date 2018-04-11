@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/input_passward"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:id="@+id/new_friendpost"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:textAlignment="center"
+            android:gravity="center"
+
+            android:text="testtest"
+            />
+        <Button
+            android:id="@+id/switch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/new_friendpost"
+            android:text="Switch"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/new_friendpost" />
+
+
+    </RelativeLayout>
+
+</layout>
